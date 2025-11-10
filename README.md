@@ -86,33 +86,35 @@ The model is trained using a structured dataset with 14 health-related features:
 
 ---
 
-## 🧩 Project Structure
+## 📁 Project Structure
 
+```bash
 Heart-Attack-Risk-Prediction/
 │
-├── dataset/ # Contains datasets used for training and analysis
-│ ├── Correlation_Check_data.csv
-│ ├── Heart_clean_data.csv
-│ └── heart.csv
+├── dataset/                      # Contains datasets used for training and analysis
+│   ├── Correlation_Check_data.csv
+│   ├── Heart_clean_data.csv
+│   └── heart.csv
 │
-├── models/ # Trained model files
-│ └── random_forest_new2.pkl
+├── models/                       # Trained model files
+│   └── random_forest_new2.pkl
 │
-├── notebooks/ # Jupyter notebooks for EDA and model training
-│ ├── EDA.ipynb
-│ └── Model_Training.ipynb
+├── notebooks/                    # Jupyter notebooks for EDA and model training
+│   ├── EDA.ipynb
+│   └── Model_Training.ipynb
 │
 ├── static/
-│ └── images/ # Static assets (e.g., logo)
-│ └── logo.jpg
+│   └── images/                   # Static assets (e.g., logo)
+│       └── logo.jpg
 │
-├── templates/ # HTML templates for Flask routes
-│ ├── index.html # Main prediction form
-│ └── landing.html # Home/landing page
+├── templates/                    # HTML templates for Flask routes
+│   ├── index.html                # Main prediction form
+│   └── landing.html              # Home/landing page
 │
-├── application.py # Main Flask application file
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── application.py                # Main Flask application file
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
+
 ---
 
 ## 💻 Installation & Setup
