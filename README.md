@@ -125,6 +125,7 @@ Heart-Attack-Risk-Prediction/
 git clone https://github.com/chandank013/heart-attack-risk-prediction.git
 cd heart-attack-risk-prediction
 
+---
 
 2️⃣ Create a virtual environment (optional but recommended)
 
@@ -144,6 +145,8 @@ python app.py
 
 http://127.0.0.1:5000
 
+---
+
 ## 🧑‍💻 Team Members
 
 | Name | Roll No. | Contributions |
@@ -152,6 +155,7 @@ http://127.0.0.1:5000
 | **Nitish Naveen** | 24BDS050 | Trained the ML model, tested, validated, and optimized app performance. |
 | **Anchal Jaiswal** | 24BDS003 | Performed data preprocessing and feature engineering. |
 
+---
 
 📈 Future Enhancements
 
@@ -162,6 +166,8 @@ http://127.0.0.1:5000
 📊 Add visualization dashboards using Chart.js or Plotly
 
 🧠 Improve model accuracy with larger datasets
+
+---
 
 💡 Author
 
