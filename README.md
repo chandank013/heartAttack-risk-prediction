@@ -117,12 +117,14 @@ Heart-Attack-Risk-Prediction/
 
 ---
 
-## 💻 Installation & Setup
+## 🛠️ Installation & Setup
 
-**1️⃣ Clone the repository**
+**1️⃣ Clone the Repository**
 
+```bash
 git clone https://github.com/chandank013/heart-attack-risk-prediction.git
 cd heart-attack-risk-prediction
+
 
 2️⃣ Create a virtual environment (optional but recommended)
 
@@ -142,15 +144,14 @@ python app.py
 
 http://127.0.0.1:5000
 
-🧑‍💻 Team Members
+## 🧑‍💻 Team Members
 
-Name	Roll No.	Contributions
+| Name | Roll No. | Contributions |
+|------|-----------|---------------|
+| **Chandan Kumar** | 24BDS013 | Designed frontend, handled backend logic, and integrated Flask routes. |
+| **Nitish Naveen** | 24BDS050 | Trained the ML model, tested, validated, and optimized app performance. |
+| **Anchal Jaiswal** | 24BDS003 | Performed data preprocessing and feature engineering. |
 
-Chandan Kumar	24BDS013	Designed frontend, handled backend logic and integrated Flask routes.
-
-Nitish Naveen	24BDS050	Trained ML model and Tested, validated, and optimized app performance.
-
-Anchal Jaiswal	24BDS003	Done Preprocessing
 
 📈 Future Enhancements
 
