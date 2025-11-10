@@ -17,8 +17,6 @@ This project uses a **Machine Learning model** trained on cardiovascular data to
   <img src="static/images/preview2.png" alt="Web App Screenshot 2" width="400"/>
 </div>
 
-*(Replace with your actual image paths, e.g., `/static/images/` or `/templates/` folders.)*
-
 ---
 
 ## 🧠 Project Description
@@ -90,23 +88,31 @@ The model is trained using a structured dataset with 14 health-related features:
 
 ## 🧩 Project Structure
 
-Heart-Attack-Prediction/
+Heart-Attack-Risk-Prediction/
 │
-├── static/ # CSS, JS, and images
-│ ├── css/
-│ ├── js/
-│ └── images/
+├── dataset/ # Contains datasets used for training and analysis
+│ ├── Correlation_Check_data.csv
+│ ├── Heart_clean_data.csv
+│ └── heart.csv
 │
-├── templates/ # HTML templates for Flask
-│ ├── index.html
-│ ├── result.html
+├── models/ # Trained model files
+│ └── random_forest_new2.pkl
 │
-├── model/ # Trained ML model (.pkl)
-├── app.py # Flask main application file
-├── requirements.txt # Project dependencies
-├── dataset.csv # Training dataset
+├── notebooks/ # Jupyter notebooks for EDA and model training
+│ ├── EDA.ipynb
+│ └── Model_Training.ipynb
+│
+├── static/
+│ └── images/ # Static assets (e.g., logo)
+│ └── logo.jpg
+│
+├── templates/ # HTML templates for Flask routes
+│ ├── index.html # Main prediction form
+│ └── landing.html # Home/landing page
+│
+├── application.py # Main Flask application file
+├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
 ---
 
 ## 💻 Installation & Setup
