@@ -117,6 +117,7 @@ git clone https://github.com/chandank013/heart-attack-risk-prediction.git
 cd heart-attack-risk-prediction
 
 2️⃣ Create a virtual environment (optional but recommended)
+
 python -m venv venv
 source venv/bin/activate   # for Linux/Mac
 venv\Scripts\activate      # for Windows
@@ -126,18 +127,25 @@ venv\Scripts\activate      # for Windows
 pip install -r requirements.txt
 
 4️⃣ Run the Flask app
+
 python app.py
 
 5️⃣ Open in your browser
+
 http://127.0.0.1:5000
 
 🧑‍💻 Team Members
+
 Name	Roll No.	Contributions
+
 Chandan Kumar	24BDS013	Designed frontend, handled backend logic and integrated Flask routes.
+
 Nitish Naveen	24BDS050	Trained ML model and Tested, validated, and optimized app performance.
+
 Anchal Jaiswal	24BDS003	Done Preprocessing
 
 📈 Future Enhancements
+
 🩺 Integration with real-time ECG or smartwatch data
 
 🌐 Deploy on cloud (Vercel / Render / Heroku)
@@ -147,5 +155,7 @@ Anchal Jaiswal	24BDS003	Done Preprocessing
 🧠 Improve model accuracy with larger datasets
 
 💡 Author
+
 Team Risk-Predictor
+
 Built with ❤️ using Python, Flask, HTML, CSS, and JavaScript.
